@@ -17,6 +17,7 @@ jobs:
           root_file: |
             resumes/en/resume.tex
             resumes/pt-br/curriculo.tex
+            resumes/pt-br/curriculo-padrao.tex
       
       - name: Upload generated PDFs to GitHub Actions Artifacts
         uses: actions/upload-artifact@v5
