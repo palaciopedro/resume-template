@@ -2,18 +2,22 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[english]{babel}
+\usepackage[brazil]{babel}
 \usepackage{geometry}
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{titlesec}
 
+% --- CONFIGURAÇÃO DO DOCUMENTO ---
 \geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+
+% Remove números de página
 \pagestyle{empty}
 
+% Metadados do PDF
 \hypersetup{
-    pdftitle={Pedro Palacio - Resume},
-    pdfauthor={Pedro Palacio},
+    pdftitle={Pedro Palacio - Currículo IEEE},
+    pdfauthor={Pedro Palacio Bahniuk},
     colorlinks=true,
     linkcolor=black,
     urlcolor=black,
@@ -23,6 +27,7 @@
 
 \setcounter{secnumdepth}{0}
 
+% Formatação dos títulos das seções
 \titleformat{\section}
 {\Large\bfseries}
 {}
@@ -30,54 +35,100 @@
 {}
 [\titlerule\vspace{0.5ex}]
 
+% --- INÍCIO DO DOCUMENTO ---
 \begin{document}
 
+% --- CABEÇALHO ---
 \begin{center}
     {\LARGE \textbf{Pedro Palacio Bahniuk}} 
     \\ [0.1cm]
-    Mandaguari, Paraná, Brazil
+    Mandaguari, Paraná
+    {\textbullet}
+    Nº Telefone: (44) 99951-2559 
     {\textbullet}
     Email: \href{mailto:pedropbhk@gmail.com}{pedropbhk@gmail.com} 
-    {\textbullet}
+    \\
     \href{https://www.linkedin.com/in/pedro-palacio}{linkedin.com/in/pedro-palacio} 
     {\textbullet}
     \href{https://github.com/palaciopedro}{github.com/palaciopedro}
 \end{center}
 
-\section{Education}
+% --- OBJETIVO ---
+\section{OBJETIVO}
+Atuação em projetos, pesquisas e editais do IEEE voltados às áreas de **Análise de Dados**, Engenharia de Software e Desenvolvimento de Sistemas, aplicando técnicas de exploração, tratamento, visualização de dados e automação.
 
-\subsection*{\textbf{Universidade Estadual de Maringá} \hfill Maringá, Paraná, Brazil}
-\textit{B.S. in Software Engineering \hfill Mar 2026 -- Mar 2030}
-
-\section{Professional Summary}
-
-Software Engineering student at Universidade Estadual de Maringá with strong foundations in Python and version control using Git. Experience developing simple applications and responsive web interfaces using HTML and CSS. Currently expanding knowledge in Java and backend development. Seeking an internship opportunity to apply technical skills and gain hands-on industry experience.
-
-\section{Technical Skills}
-
+% --- ATUAÇÃO E AFILIAÇÃO IEEE ---
+\section{AFILIAÇÃO E ENVOLVIMENTO NO IEEE}
+\textbf{Membro do IEEE e do IEEE Computer Science Society (CS) Chapter -- UEM} \hfill Mai 2026 -- Presente
 \begin{itemize}
-    \item \textbf{Programming:} Python, Java
-    \item \textbf{Web Development:} HTML5, CSS3
-    \item \textbf{Database:} PostgreSQL
-    \item \textbf{Tools:} Git, GitHub
-    \item \textbf{Languages:} Portuguese (Native), English (Advanced)
+    \item Participação ativa nas atividades, capacitações e projetos promovidos pelo Ramo Estudantil IEEE UEM.
+    \item Conclusão de Workshop prático sobre **Análise de Dados em Python**, abrangendo manipulação, limpeza, estatística e visualização com Pandas, NumPy e Matplotlib.
 \end{itemize}
 
-\section{Projects}
+% --- FORMAÇÃO ACADÊMICA ---
+\section{FORMAÇÃO ACADÊMICA}
+    \subsection*{\texorpdfstring{
+            \textbf{Universidade Estadual de Maringá (UEM)} \hfill Maringá, Paraná
+        }{
+            Universidade Estadual de Maringá
+        }}
+    \textit{Bacharelado em Engenharia de Software \hfill Mar 2026 -- Mar 2030 (Previsão)}
+    
+    \subsection*{\texorpdfstring{
+            \textbf{Colégio Sagrada Família} \hfill Mandaguari, Paraná
+        }{
+            Colégio Sagrada Família
+        }}
+    \textit{Ensino Médio Completo \hfill Concluído em Dez 2025}
 
-\textbf{Personal Website - HTML \& CSS} \\
-Developed a responsive website using HTML and CSS to showcase professional information and contact links. Implemented clean layout design and mobile responsiveness. Deployed using GitHub Pages.
+% --- EXPERIÊNCIA PROFISSIONAL ---
+\section{EXPERIÊNCIA PROFISSIONAL}
 
-\textbf{Task Tracker CLI – Python} \\
-Developed a command-line task management application in Python supporting CRUD operations (create, read, update, delete) and task status management. Implemented data persistence using a local JSON file and handled CLI arguments without external libraries. Structured the code in a modular way to improve maintainability
+\textbf{Estagiário de Projetos} \hfill 2026 -- Presente \\
+\textit{Empresa de Engenharia de Infraestrutura de Telecomunicações}
+\begin{itemize}
+    \item Auxílio no acompanhamento, organização e suporte ao desenvolvimento de projetos de infraestrutura técnica de telecomunicações.
+    \item Apoio na análise de requisitos e documentação técnica para execução de projetos da área.
+\end{itemize}
+
+\textbf{Estagiário Administrativo} \hfill 2026 \\
+\textit{Empresa de Telecomunicações}
+\begin{itemize}
+    \item Atuação no suporte às rotinas administrativas, organização de documentos e suporte às operações gerais da empresa.
+\end{itemize}
+
+% --- QUALIFICAÇÕES E COMPETÊNCIAS ---
+\section{QUALIFICAÇÕES E COMPETÊNCIAS}
+    \begin{itemize}
+        \item \textbf{Análise de Dados \& Linguagens:} Python (Pandas, NumPy, Matplotlib), Java (Spring Boot), SQL (PostgreSQL, H2), NoSQL (MongoDB), HTML/CSS.
+        \item \textbf{Tratamento \& Visualização de Dados:} Limpeza e tratamento de dados ausentes, análise exploratória (EDA), definição de métricas estatísticas e geração de gráficos.
+        \item \textbf{Ferramentas \& Ferramentas de Versão:} Git/GitHub, Pacote Office (Word, Excel, PowerPoint), OpenPyXL, Maven.
+        \item \textbf{Idiomas:} Inglês Avançado.
+        \item \textbf{Competências Pessoais:} Organização e atenção aos detalhes, trabalho em equipe, proatividade, pontualidade e boa comunicação verbal e escrita.
+    \end{itemize}
+
+% --- PROJETOS ---
+\section{PROJETOS DE DESTAQUE}
+
+\textbf{Estudo do Mercado de Videogames -- Análise de Dados (Python, Pandas, NumPy, Matplotlib)} \\
+Projeto de consolidação desenvolvido ao final do Workshop de Análise de Dados do IEEE CS Chapter. Realizou-se a análise exploratória de um dataset com mais de 16.000 registros contendo vendas por região, plataforma, ano de lançamento, gênero e publicadora.
+\begin{itemize}
+    \item Realização de todo o pipeline de dados: exploração inicial, entendimento das variáveis e identificação de padrões.
+    \item Limpeza de dados e tratamento sistemático de valores ausentes e inconsistências.
+    \item Criação de métricas de vendas globais/regionais e cálculo de estatísticas descritivas.
+    \item Desenvolvimento de visualizações gráficas com Matplotlib para geração de insights sobre tendências do mercado.
+\end{itemize}
+
+\textbf{Automação de Planilha + Integração com API -- Python, Pandas, OpenPyXL} \\
+Desenvolvimento de aplicação em Python para automatizar a atualização de planilhas Excel integradas a uma API (Tabela do Brasileirão), eliminando processos manuais, preservando a estrutura dos arquivos e gerando executável para distribuição.
 
 \textbf{Connect API – Java, Spring Boot, MongoDB} \\
-Development of a REST API focused on interaction between users and publications, allowing user registration, post creation, and comment addition. The application was built with Spring Boot and Spring Data MongoDB, using NoSQL modeling with embedded documents for comments and references between users and posts. It implements advanced textual queries with regex, filters by date range and search in nested fields, in addition to a layered architecture, DTOs for optimizing data traffic, and CRUD endpoints in JSON, with project management via Maven.
+API REST para interação entre usuários e postagens com suporte a buscas por regex, DTOs, filtros por datas e modelagem NoSQL.
 
-\textbf{Spreadsheet Automation + API Integration - Python, Pandas \& OpenPyXL} \\
-Development of a Python application to automate the process of updating Excel spreadsheets, integrating with an API that delivers updated data from the Brazilian Championship Table, eliminating repetitive manual tasks and reducing the risk of errors in data manipulation. The project processes data through a main service and directly updates an existing tab, preserving the original file structure without recreating it. It includes file existence validation, modular code organization, and executable generation for distribution without the need for an installed Python environment.
+\textbf{API de Gestão de Vendas – Java, Spring Boot, Spring Data JPA} \\
+API REST em Java para gestão de pedidos e produtos, utilizando Hibernate/JPA, banco H2/PostgreSQL e arquitetura em camadas.
 
-\textbf{Sales Management API – Java, Spring Boot, Spring Data JPA} \\
-Development of a REST API in Java using Spring Boot for managing users, orders, and products. The project uses Spring Data JPA and Hibernate for data persistence, including entity relationship modeling and composite keys for order items. It provides CRUD endpoints using JSON, uses H2 database for testing, supports PostgreSQL, and follows a layered architecture (Controller, Service, Repository) with Maven for dependency management and build.
+\textbf{Task Tracker CLI – Python} \\
+Aplicação CLI modular em Python para gerenciamento de tarefas (CRUD) com persistência de dados em arquivos JSON.
 
 \end{document}
