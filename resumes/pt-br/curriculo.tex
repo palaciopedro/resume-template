@@ -43,7 +43,6 @@
 \begin{document}
 
 % --- CABEÇALHO ---
-% Substitua com suas informações pessoais
 \begin{center}
     {\LARGE \textbf{Pedro Palacio Bahniuk}} 
     \\ [0.1cm]
@@ -58,39 +57,53 @@
 
 % --- SEÇÕES ---
 
+\section{Sobre mim}
+    Estudante de Engenharia de Software na Universidade Estadual de Maringá, atuando na área de software e suporte técnico na SIGINFRA Engenharia. Desenvolvo projetos em Python, Java com Spring Boot e TypeScript, incluindo APIs REST, automações e um aplicativo mobile com React Native e Supabase, além de utilizar Git para controle de versão. Busco contribuir com minhas habilidades técnicas e continuar evoluindo em desenvolvimento de software.
+
+\section{Experiência Profissional}
+    \subsection*{\texorpdfstring{
+            \textbf{SIGINFRA Engenharia} \hfill Jul 2026 - Presente
+        }{
+            SIGINFRA Engenharia -- Jul 2026 - Presente
+        }}
+    \textit{Suporte de Software e Projetos de Rede de Fibra}
+    \begin{itemize}
+        \item Atuação na área de software, prestando suporte técnico e auxiliando na resolução de problemas de usuários e sistemas.
+        \item Elaboração de projetos de rede de fibra óptica no AutoCAD.
+    \end{itemize}
+
 \section{Educação}
     % Formação mais recente primeiro
     \subsection*{\texorpdfstring{
             \textbf{Universidade Estadual de Maringá} \hfill Maringá, Paraná
         }{
-            Nome da Sua Universidade (Educação) -- Localização
+            Universidade Estadual de Maringá -- Maringá, Paraná
         }}
     \textit{Bacharelado em Engenharia de Software \hfill Mar 2026 - Mar 2030 }
 
-\section{Sobre mim}
-        Estudante de Engenharia de Software na Universidade Estadual de Maringá com sólida formação em Python. Experiência na criação de aplicações simples para uso pessoal e controle de versão com Git. Atualmente, aprimorando meus conhecimentos em Java, SpringBoot e desenvolvimento back-end. Busco uma oportunidade de estágio para contribuir com minhas habilidades técnicas e adquirir experiência na área.
-
 \section{Habilidades}
     \begin{itemize}
-        \item \textbf{Técnicas:} Python, Java, SpringBoot, PostgreSQL, HTML, CSS, Git
+        \item \textbf{Linguagens:} Python, Java, TypeScript, HTML, CSS
+        \item \textbf{Frameworks e Tecnologias:} Spring Boot, Spring Data JPA, React Native, Expo, Next.js, Pandas
+        \item \textbf{Bancos de Dados:} PostgreSQL, MongoDB, Supabase
+        \item \textbf{Ferramentas:} Git, Maven, AutoCAD
         \item \textbf{Idiomas:} Português (Nativo), Inglês (Avançado)
     \end{itemize}
 
-
 \section{Projetos}
-\textbf{Website Pessoal - HTML e CSS} \\
-Desenvolvi um site responsivo usando HTML e CSS para apresentar informações profissionais e links de contato. Implementei um design de layout limpo e responsivo, tanto para dispositivos móveis quanto telas maiores. Hospedado no GitHub Pages.
+\textbf{Safety Inspect – React Native, Expo, TypeScript, Supabase} \\
+Desenvolvimento de aplicativo mobile para gestão de inspeções de Segurança e Saúde no Trabalho (SST), permitindo registrar inspeções, documentar ocorrências com fotos e calcular automaticamente o nível de risco pela metodologia HRN (Hazard Rating Number). Implementação de captura de imagens pela câmera ou galeria com compressão automática, assinaturas digitais do auditor e do responsável pelo local, e fluxo de inspeção com status de rascunho e finalizada. Geração de relatórios profissionais em PDF, com logotipo e dados personalizados da empresa, e exportação de planilhas CSV compatíveis com Excel. Persistência e armazenamento em nuvem com Supabase (PostgreSQL) e navegação com Expo Router.
 
-\textbf{Task Tracker CLI – Python} \\
-Desenvolvimento de aplicação em linha de comando (CLI) para gerenciamento de tarefas, permitindo operações de CRUD (criar, listar, atualizar e remover). Implementação de persistência de dados em arquivo JSON e manipulação de argumentos via terminal sem uso de bibliotecas externas. Código estruturado de forma modular visando organização e manutenibilidade.  
+\textbf{Site para Hotdogueria (Rock Dog) – Next.js, Vercel} \\
+Desenvolvimento, com apoio de ferramentas de IA, de site responsivo para uma hotdogueria de Mandaguari, com o objetivo de facilitar o fluxo de clientes e pedidos. O site apresenta cardápio com filtros por categoria (simples, duplo e vegano), carrinho de pedidos, seção institucional, avaliações de clientes e informações de horário, endereço e formas de pagamento, com integração aos canais de atendimento do negócio (WhatsApp, iFood e Instagram). Publicado na Vercel: \href{https://rock-dog-dogueria-mqwp.vercel.app/}{rock-dog-dogueria-mqwp.vercel.app}.
 
 \textbf{Connect API – Java, Spring Boot, MongoDB} \\
 Desenvolvimento de uma API REST voltada para interação entre usuários e publicações, permitindo cadastro de usuários, criação de posts e adição de comentários. A aplicação foi construída com Spring Boot e Spring Data MongoDB, utilizando modelagem NoSQL com documentos embarcados para comentários e referências entre usuários e posts. Implementa consultas textuais avançadas com regex, filtros por intervalo de datas e busca em campos aninhados, além de arquitetura em camadas, DTOs para otimização dos dados trafegados e endpoints CRUD em JSON, com gerenciamento do projeto via Maven.
 
-\textbf{Automação de Planilha + Integração com API - Python, Pandas, OpenPyXL} \\
-Desenvolvimento de aplicação em Python para automatizar o processo de atualização de planilhas Excel, integrando com uma API que entrega os dados atualizados da Tabela do Brasileirão, eliminando tarefas manuais repetitivas e reduzindo riscos de erro na manipulação de dados. O projeto processa dados por meio de um serviço principal e atualiza diretamente uma aba existente, preservando a estrutura original do arquivo sem recriá-lo. Inclui validação de existência de arquivos, organização modular do código e geração de executável para distribuição sem necessidade de ambiente Python instalado.
-
 \textbf{API de Gestão de Vendas – Java, Spring Boot, Spring Data JPA} \\
 Desenvolvimento de uma API REST em Java com Spring Boot para gerenciamento de usuários, pedidos e produtos. O projeto utiliza Spring Data JPA e Hibernate para persistência de dados, com modelagem de relacionamentos entre entidades e uso de chave composta para itens de pedido. Inclui endpoints CRUD em JSON, banco H2 para testes e suporte a PostgreSQL, seguindo arquitetura em camadas (Controller, Service e Repository) e build com Maven.
+
+\textbf{Automação de Planilha + Integração com API - Python, Pandas, OpenPyXL} \\
+Desenvolvimento de aplicação em Python para automatizar o processo de atualização de planilhas Excel, integrando com uma API que entrega os dados atualizados da Tabela do Brasileirão, eliminando tarefas manuais repetitivas e reduzindo riscos de erro na manipulação de dados. O projeto processa dados por meio de um serviço principal e atualiza diretamente uma aba existente, preservando a estrutura original do arquivo sem recriá-lo. Inclui validação de existência de arquivos, organização modular do código e geração de executável para distribuição sem necessidade de ambiente Python instalado.
 
 \end{document}
